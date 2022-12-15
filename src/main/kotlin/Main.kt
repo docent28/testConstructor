@@ -1,7 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    val myClassZero = MyClass()
+    val myClassOne = MyClass("Волга", 3102)
+    val myClassTwo = MyClass("audi", 78, "pass0101")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    println("myClassZero = ${myClassZero.name} ${myClassZero.id} ${myClassZero.password}")
+    println("myClassOne = ${myClassOne.name} ${myClassOne.id} ${myClassOne.password}")
+    println("myClassTwo = ${myClassTwo.name} ${myClassTwo.id} ${myClassTwo.password}")
 }
