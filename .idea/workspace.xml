@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dee1881-1c99-4afc-9959-6de645780cac" name="Changes" comment="">
+    <list default="true" id="8dee1881-1c99-4afc-9959-6de645780cac" name="Changes" comment="Paren Child">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Child.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Child.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Child.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Parent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Parent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Parent.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,18 @@
       <option name="presentableId" value="Default" />
       <updated>1671100004213</updated>
     </task>
+    <task id="LOCAL-00001" summary="Paren Child">
+      <created>1671109385858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671109385858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Paren Child" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paren Child" />
   </component>
 </project>

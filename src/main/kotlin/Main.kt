@@ -1,9 +1,26 @@
-fun main() {
-    val myClassZero = MyClass()
-    val myClassOne = MyClass("Волга", 3102)
-    val myClassTwo = MyClass("audi", 78, "pass0101")
-
-    println("myClassZero = ${myClassZero.name} ${myClassZero.id} ${myClassZero.password}")
-    println("myClassOne = ${myClassOne.name} ${myClassOne.id} ${myClassOne.password}")
-    println("myClassTwo = ${myClassTwo.name} ${myClassTwo.id} ${myClassTwo.password}")
+open class Base(name: String, age: Int) {
+    constructor(name: String, age: Int, weight: Int) : this(name, age)
 }
+//open class Base {
+//    constructor(name: String, age: Int)
+//    constructor(name: String, age: Int, weight: Int) : this(name, age)
+//}
+
+//  Пример 1
+class CurrentOne(name: String, age: Int) : Base(name, age) {
+    // constructor(name: String, age: Int, weight: Int): super(name, age, weight) // ошибка
+}
+
+//  Пример 2
+class CurrentTwo(name: String, age: Int, weight: Int) : Base(name, age, weight) {
+    // constructor(name: String, age: Int): super(name, age) // ошибка
+}
+
+//  Пример 3
+class CurrentThree : Base {
+    constructor(name: String, age: Int) : super(name, age)
+    constructor(name: String, age: Int, weight: Int) : super(name, age, weight)
+    constructor(name: String, age: Int, weight: Int, salary: Double) : super(name, age, weight)
+}
+
+fun main() {}
