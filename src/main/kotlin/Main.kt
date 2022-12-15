@@ -21,6 +21,7 @@ class CurrentThree : Base {
     constructor(name: String, age: Int) : super(name, age)
     constructor(name: String, age: Int, weight: Int) : super(name, age, weight)
     constructor(name: String, age: Int, weight: Int, salary: Double) : super(name, age, weight)
+    constructor(name: String, age: Int, weight: Int, auto: String) : this(name, age, weight)
 }
 
 fun main() {}
